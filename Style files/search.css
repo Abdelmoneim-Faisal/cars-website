@@ -1,0 +1,136 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 10;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 110%;
+}
+
+.nav-links, .nav-link {
+    color: #edf0f1;
+    text-decoration: none;
+    display: flex;
+}
+header {
+    background-color: #edf0f1;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+.logo {
+    cursor: pointer;
+    margin-right: 90px;
+    order: 2;
+    width: 159px;
+    height: 58.4px;
+    margin-top: 1.5em;
+}
+.nav {
+    order: 1;
+}
+.nav-links {
+    list-style: none
+}
+.nav-link {
+    display: inline-block;
+    padding: 0px 0px;
+    margin-top: 10px;
+    color: #edf0f1;
+}
+a {
+    text-decoration: none;
+}
+.nav-link a:hover {
+    color: #0088a9;
+}
+li {
+    margin: 2em;
+}
+
+footer{
+    background-color: rgb(246, 231, 225);
+    justify-content: space-around;
+    display: block;
+    padding: 20px;
+    box-sizing: border-box;
+    padding: 0.1px;
+    margin-top:17% ;
+}
+footer p{
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.branches li{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.branches ul{
+    justify-content: space-around;
+    display: flex;
+}
+.branches a{
+    color: black;
+}
+span{
+    margin-left: 600px ;
+    text-align: center;
+    background-color: #ffcc99;
+    font-size: 40px;
+}
+#special{
+    margin-left: 250px;
+}
+.big{
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+}
+#myUL{
+    font-size: 200%;
+    list-style-type: none;
+}
+.big a{
+    color: black ;
+}
+button{
+    height: 50px;
+    width: 65px;
+    border: 2mm ridge rgba(50, 95, 220, .6);
+    border-radius: 60px; 
+    cursor: pointer;
+    }
+.bar {
+height: fit-content;
+width: 700px;
+padding:22px ;
+margin-left: 30px;
+margin-bottom: 50px;
+border: 2mm ridge rgba(50, 95, 220, 0.6);
+border-radius: 25px;
+
+}
+.big img {
+height: 400px;    
+}
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    background-color: #a70000;
+    color: white;
+}
+#car1_details, #car2_details, #car3_details, #car4_details, #car5_details,
+#car6_details, #car7_details, #car8_details, #car9_details, #car10_details
+{
+display: none;
+}
+

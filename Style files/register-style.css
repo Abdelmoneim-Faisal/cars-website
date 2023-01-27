@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(photo-of-black-lamborghini-3802510.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.form-details{
+    z-index: 1;
+    background-color: white;
+    opacity: 90%;
+    max-width:400px;
+    height: 577px;
+    margin: 45px auto 100px;
+    padding: 30px 30px 0px 30px;
+}
+.form-details input{
+    padding:6px 6px 6px 6px;
+}
+.title{
+    background-color: whitesmoke;
+    padding: 10px ;
+}
+.submit {
+    margin-left: 130px;
+}
+.block{
+    margin-top: 10px;
+}
+.Login-Page{
+    z-index: 1;
+    text-align: center;
+    margin-left: 520px;
+    margin-top: -100px;
+    background-color: white;
+    opacity: 90%;
+    width: 400px;
+}

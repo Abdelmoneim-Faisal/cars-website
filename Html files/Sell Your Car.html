@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sell Your Car</title>
+    <link rel="stylesheet" href="../Style files/Sell Your Car Style.css">
+</head>
+<script>
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+</script>
+<header>
+    <img class="logo" src="Capture.PNG" alt="Logo">
+    <nav>
+        <ul class="nav-links">
+            <li class="Nav-Link"><a href="Home-Page.html">Home Page</a></li>
+            <li class="Nav-Link"><a href="About US.html">About Us</a></li>
+            <li class="Nav-Link"><a href="Contact-Us.html">Contact Us</a></li>
+            <li class="Nav-Link"><a href="Our Goal.html">Our Goal</a></li>
+            <li class="Nav-Link"><a href="Sell Your Car.html">Sell Your Car</a></li>
+            <li class="Nav-Link"><a href="Buy Parts.html">Buy Parts</a></li>
+            <li class="Nav-Link"><a href="search.html">Search</a></li>
+            <li class="Nav-Link">
+                <label class="switch">
+                    <input type="checkbox" onclick="myFunction()">
+                    <span class="slider round"></span>
+                </label>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <h1 id="H1">Sell Your Car</h1>
+    <br>
+    <p class="AlertNote">* Complete this form so we can get some Information about your car.</p>
+    <form name="SellCar">
+        <label class="SYCL">Car Model:</label>
+        <br>
+        <input type="text" class="SYCI" size="50" placeholder="Write your car Model" required>
+        <br>
+        <hr><br>
+        <label class="SYCL">Reg.year:</label>
+        <br>
+        <select class="SYCI">
+            <option>2020</option>
+            <option>2019</option>
+            <option>2018</option>
+            <option>2017</option>
+            <option>2016</option>
+        </select>
+        <br>
+        <hr><br>
+        <label class="SYCL">Upload your car Photo</label>
+        <br> <br>
+        <input type="file" class="SYCI" required>
+        <br>
+        <hr><br>
+        <label class="SYCL">Total Kilometers:</label>
+        <br>
+        <input type="text" class="SYCI" size="50" placeholder="Write The number of kilometers that your car moved"
+            required>
+        <br>
+        <hr><br>
+        <label class="SYCL">Car Type:</label>
+        <br><br>
+        <input type="radio" name="type" required>Automatic
+        <br><br>
+        <input type="radio" name="type" required>Manual
+        <br>
+        <hr><br>
+        <label class="SYCL">Engine Capacity:</label>
+        <br>
+        <input type="text" class="SYCI" size="50" placeholder="Write the Engine Capacity" required>
+        <br>
+        <hr><br>
+        <label class="SYCL">Number of Doors:</label>
+        <br><br>
+        <input type="radio" name="Doors" required>Two
+        <br><br>
+        <input type="radio" name="Doors" required>Four
+        <br>
+        <hr><br>
+        <label class="SYCL">Airbags</label>
+        <br><br>
+        <input type="radio" name="airbags" required>Yes
+        <br><br>
+        <input type="radio" name="airbags" required>No
+        <br>
+        <hr><br>
+        <label class="SYCL">Phone Number:</label>
+        <br>
+        <input type="text" class="SYCI" size="50" placeholder="Write your phone Number" maxlength="11" required>
+        <br>
+        <hr><br>
+        <label class="SYCL">More Information about the car:</label>
+        <br>
+        <textarea rows="6" cols="60" placeholder="Write if you fix the car before"></textarea>
+        <br><br>
+        <p class="AlertNote">* When you press Submit your Form will reach us and we will contact you via your phone
+            number</p>
+        <br><br><br>
+        <input type="submit" id="SubmitButton" value="Submit">
+    </form>
+</body>
+<footer>
+    <div class="branches">
+        <ul>
+            <li><a class="FI" href="index.html">Branches </a></li>
+            <li><a class="FI" href="https://www.facebook.com/abdallah.assem.7/">Author</a></li>
+            <li><a class="FI" href="compare.html">Compare</a></li>
+            <li><a class="FI" href="#">Click to go Up</a></li>
+        </ul>
+    </div>
+</footer>
+
+</html>

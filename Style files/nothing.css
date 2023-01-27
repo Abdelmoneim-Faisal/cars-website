@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background : linear-gradient(to right, #ECE9E6,#FFFFFF)
+}
+.Title,.Sub-Title,.Sub-Title-Details{
+    text-align: center;
+ }
+ .Title{
+     margin-top: 3%;
+ }
+ .nav-links,.nav-link{
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    background-color: #24252A ;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    margin-left: auto;
+    order: 2;
+}
+.nav{
+    order: 1;
+}
+.nav-links{
+    list-style: none;
+}
+.nav-link{
+    display: inline-block;
+    padding: 0px 20px;
+    margin-top: 10px;
+}
+.nav-link a{
+    transition: all 0.3 ease 0s;
+}
+a{
+    text-decoration: none;
+}
+.nav-link a:hover{
+    color: white;
+}
+.Facebook-Icon{
+    height: 30px;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -2%;
+}
+.Contact{
+    margin-left: 30%;
+    margin-top: 4%;
+}
+.contact-us{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.Full-Name, .Customer-Email,.Message1, .Key-Contrey, .Number-Phone{
+    border-width: 1px;
+    padding: 11px;
+}
+.Message{
+    padding-bottom : 80px;
+}
+.send-message{
+    padding: 15 135  15 135px;
+    margin-top: 10px;
+    margin-left:37%;
+
+}
+footer{
+    background-color: rgb(246, 231, 225);
+    padding: 20px;
+    justify-content: space-around;
+    display: block;
+}
+footer p{
+    color: black;
+}
+.branches li{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.branches ul{
+    justify-content: space-around;
+    display: flex;
+}
+.branches a{
+    color: black;
+}

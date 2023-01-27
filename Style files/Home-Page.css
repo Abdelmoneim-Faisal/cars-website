@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+body{
+    background : linear-gradient(to right, #ECE9E6,#FFFFFF)
+}
+.nav-links,.nav-link{
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    background-color: #24252A ;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    margin-left: auto;
+    order: 2;
+}
+.nav{
+    order: 1;
+}
+.nav-links{
+    list-style: none;
+}
+.nav-link{
+    display: inline-block;
+    padding: 0px 20px;
+    margin-top: 10px;
+}
+.nav-link a{
+    transition: all 0.3 ease 0s;
+}
+a{
+    text-decoration: none;
+}
+.nav-link a:hover{
+    color: #0088a9;
+}
+.container{
+    width: 690px;
+    margin: 40px auto;
+    overflow: auto;
+}
+.slider-frame{
+    width: 650px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 30px;
+}
+.slider-inner img{
+    display: none;
+    width: 650px;
+    height: 450px;
+}
+.slider-inner img.active{
+    display:inline-block;
+}
+.prev,.next{
+    float: left;
+    margin-top: 160px;
+    cursor: pointer;
+}
+.prev{
+    position: absolute;
+    margin-right: -45px;
+    z-index:100;
+}
+.next{
+    position: relative;
+    margin-left: 630px;
+    margin-top: -300px;
+    z-index:100;
+}
+.column{
+    width: 35%;
+    padding: 10px;
+}
+.row{
+   padding: 40px;
+   display: flex;
+}
+.card-title{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #834343b6;
+}
+.card-title p,h1{
+    color: black;
+}
+.card-details{
+    background-color: #f1f1f1;
+    border-left: black;
+}
+.card-details p{
+    color: black;
+    padding: 20px;
+}
+.gt-LineS{
+    width: 100%;
+}
+footer{
+    background-color: rgb(246, 231, 225);
+    padding: 20px;
+    justify-content: space-around;
+    display: block;
+}
+footer p{
+    color: black;
+}
+.branches li{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.branches ul{
+    justify-content: space-around;
+    display: flex;
+}
+.branches a{
+    color: black;
+}

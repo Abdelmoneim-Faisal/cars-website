@@ -1,0 +1,168 @@
+body{
+    background-color: lightblue;
+}
+.dark-mode {
+background-color: black;
+color: white;
+}
+.switch {
+ position: relative;
+ display: inline-block;
+ width: 60px;
+ height: 34px;
+}
+
+.switch input { 
+ opacity: 0;
+ width: 0;
+ height: 0;
+}
+
+.slider {
+ position: absolute;
+ cursor: pointer;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: #ccc;
+ -webkit-transition: .4s;
+ transition: .4s;
+}
+
+.slider:before {
+ position: absolute;
+ content: "";
+ height: 26px;
+ width: 26px;
+ left: 4px;
+ bottom: 4px;
+ background-color: white;
+ -webkit-transition: .4s;
+ transition: .4s;
+}
+
+input:checked + .slider {
+ background-color: #2196F3;
+}
+
+
+
+input:checked + .slider:before {
+ -webkit-transform: translateX(26px);
+ -ms-transform: translateX(26px);
+ transform: translateX(26px);
+}
+
+
+.slider.round {
+ border-radius: 34px;
+}
+
+.slider.round:before {
+ border-radius: 50%;
+}
+.head{
+    margin-left: auto ;
+    margin-bottom: 50PX;
+    text-align: center;
+    background-color: #c6cf75;
+    font-size: 35px;
+
+}
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 25px;
+    width: 50px;
+    margin-left: 90px;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    background-color: #cf7575;
+    color: white;
+}   
+.image {
+    height: 300px;    
+    }
+.break{
+color: blue;
+}
+div{
+    margin-top: 50px
+}
+.CYC{
+font-size: large;
+}
+input{ 
+    cursor: pointer;
+}
+.nav-links, .nav-link {
+    color: #edf0f1;
+    text-decoration: none;
+    display: flex;
+}
+header {
+    background-color: #edf0f1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 0%;
+    box-sizing: border-box;
+}
+.logo {
+    cursor: pointer;
+    margin-left: auto;
+    order: 2;
+    width: 159px;
+    height: 58.4px;
+    margin-top: 1.5em;
+}
+.nav {
+    order: 1;
+}
+.nav-links {
+    list-style: none;
+}
+.nav-link {
+    display: inline-block;
+    padding: 0px 20px;
+    margin-top: 10px;
+    color: #edf0f1;
+}
+a {
+    text-decoration: none;
+}
+.nav-link a:hover {
+    color: #0088a9;
+}
+li {
+    margin: 2em;
+}
+footer{
+    background-color: white;
+    padding: 20px;
+    justify-content: space-around;
+    display: block;
+    box-sizing: border-box;
+    padding: 0.1px;
+    position: -webkit-sticky;
+    padding: top 50%; 
+}
+footer p{
+    color: black;
+}
+.branches li{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.branches ul{
+    justify-content: space-around;
+    display: flex;
+}
+.branches a{
+    margin-bottom: 25px;
+    color: black;
+}

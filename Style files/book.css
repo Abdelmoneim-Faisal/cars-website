@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url('book.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.Full-Item{
+    padding: 12px;
+    border-width: 1px;
+}
+.customer-information{
+    margin-left: 1%;
+    margin-top: 5%;
+}
+.Billing-Address{
+    margin-left: 20%;
+    margin-top: -20%;
+}
+.Payment-Information{
+    margin-left: 34%;
+    margin-top: -16.5%;
+}
+.car-be{
+    margin-left: 50%;
+    margin-top: -350px;
+}
+.buy1 a{
+    text-decoration: none;
+}
+.buy1:hover{
+        color:#000000;
+        background-color:white;
+    }
+.buy1{
+color: black;
+display : inline-block;
+padding:0.9em 10em;
+border:0.1em solid black;
+margin-left: 50px;
+border-radius:0.8em;
+box-sizing: border-box;
+text-decoration:none;
+font-weight:800;
+text-align:center;
+transition: all 0.2s;
+}
+
+
+.buy1{
+margin-left: 67%;
+margin-top: 2%;
+cursor: pointer;
+
+}
+.nav-links, .nav-link {
+    color: #edf0f1;
+    text-decoration: none;
+    display: flex;
+}
+header {
+    background-color: #edf0f1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 0%;
+    box-sizing: border-box;
+}
+.logo {
+    cursor: pointer;
+    margin-right: 150px;
+    order: 2;
+    width: 159px;
+    height: 58.4px;
+    margin-top: 1em;
+}
+.nav {
+    order: 1;
+}
+.nav-links {
+    list-style: none;
+}
+.nav-link {
+    display: inline-block;
+    padding: 0px 1px;
+    margin-top: 25px;
+    color: #edf0f1;
+}
+a {
+    text-decoration: none;
+}
+.nav-link a:hover {
+    color: #0088a9;
+}
+li {
+    margin: 2em;
+}
+footer{
+    background-color: rgb(246, 231, 225);
+    padding: 20px;
+    justify-content: space-around;
+    display: block;
+    box-sizing: border-box;
+    padding: 0.1px;
+    position: sticky;
+    margin-top: 150px;
+}
+footer p{
+    color: black;
+}
+.branches li{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.branches ul{
+    justify-content: space-around;
+    display: flex;
+}
+.branches a{
+    color: black;
+}
